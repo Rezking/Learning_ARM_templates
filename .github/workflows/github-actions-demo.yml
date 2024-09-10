@@ -16,5 +16,9 @@ jobs:
   Test-Job-dependencies-2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'lets see where this runs'      
+      - run: echo 'lets see where this runs'    
+  Single-job-run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'This too'             
            
